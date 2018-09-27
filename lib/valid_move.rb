@@ -8,12 +8,4 @@ def position_taken?(board, index)
      false : true
 end
 
-def valid_move
-  
-  if position_taken
 
-  else
-
-  end
-
-end
