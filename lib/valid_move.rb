@@ -10,8 +10,8 @@ end
 
 def valid_move?(board, index)
   if index.between(0,8) && !(position_taken?)
-        return true
+        true
   else
-        return false
+        false
   end
 end
